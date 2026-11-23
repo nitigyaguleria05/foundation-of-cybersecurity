@@ -1,0 +1,41 @@
+Experiment No. 12: Configuration of Next-Generation Firewall Using pfSense
+
+Aim: To configure a Next-Generation Firewall using pfSense in VirtualBox and test network traffic using Kali Linux.
+
+Software Required:
+
+1. Oracle VirtualBox
+2. pfSense Firewall
+3. Kali Linux
+4. Web Browser
+5. Internet Connection
+
+Theory:
+A Next-Generation Firewall (NGFW) monitors and controls network traffic to prevent unauthorized access. pfSense is an open-source firewall and router that provides network security through configurable firewall rules.
+
+Procedure:
+
+1. Create and start a pfSense virtual machine in VirtualBox.
+2. Configure WAN and LAN network interfaces.
+3. Assign IP addresses to both interfaces.
+4. Create a Kali Linux virtual machine and connect it to the test network.
+5. Access the pfSense WebGUI through its LAN IP address.
+6. Open Firewall → Rules and configure rules to allow or block traffic.
+7. Test network connectivity using Kali Linux.
+8. Observe the firewall's traffic filtering behaviour.
+
+Observations:
+
+1. pfSense was successfully installed and started.
+2. WAN and LAN interfaces were configured.
+3. Firewall rules controlled incoming and outgoing traffic.
+4. Allowed and blocked traffic was observed using Kali Linux.
+
+Precautions:
+
+- Configure network interfaces carefully.
+- Use an isolated virtual network for testing.
+- Do not expose the firewall management interface publicly.
+
+Result:
+pfSense was successfully configured in VirtualBox, and network traffic filtering using firewall rules was studied and tested with Kali Linux.
